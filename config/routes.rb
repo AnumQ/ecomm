@@ -1,11 +1,12 @@
 Ecom::Application.routes.draw do
 	
+  root :to => "staticpages#home"
   get "staticpages/home"
 
   get "staticpages/help"
 
   get "staticpages/about"
-	
+
   match '/home', :to => 'staticpages#home'
   match '/help', :to => 'staticpages#help'
   match '/about', :to => 'staticpages#about'
