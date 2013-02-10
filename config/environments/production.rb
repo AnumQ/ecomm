@@ -22,6 +22,7 @@ Ecom::Application.configure do
   
   # Anum's added configurations
   config.assets.precompile += %w( style.css )
+  config.assets.enabled = false
 
   # Defaults to nil and saved in location specified by config.assets.prefix
   # config.assets.manifest = YOUR_PATH

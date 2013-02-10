@@ -1,0 +1,264 @@
+<NotepadPlus>
+    <Project name="Ecom">
+        <Folder name=".bundle">
+            <File name=".bundle\config" />
+        </Folder>
+        <Folder name="app">
+            <Folder name="assets">
+                <Folder name="images">
+                    <File name="app\assets\images\img04.jpg" />
+                    <File name="app\assets\images\img04.psd" />
+                    <File name="app\assets\images\rails.png" />
+                </Folder>
+                <Folder name="javascripts">
+                    <File name="app\assets\javascripts\application.js" />
+                </Folder>
+                <Folder name="stylesheets">
+                    <File name="app\assets\stylesheets\application.css" />
+                    <File name="app\assets\stylesheets\staticpages.css.scss" />
+                    <File name="app\assets\stylesheets\style.css" />
+                </Folder>
+            </Folder>
+            <Folder name="controllers">
+                <File name="app\controllers\application_controller.rb" />
+                <File name="app\controllers\staticpages_controller.rb" />
+            </Folder>
+            <Folder name="helpers">
+                <File name="app\helpers\application_helper.rb" />
+                <File name="app\helpers\staticpages_helper.rb" />
+            </Folder>
+            <Folder name="mailers">
+                <File name="app\mailers\.gitkeep" />
+            </Folder>
+            <Folder name="models">
+                <File name="app\models\.gitkeep" />
+            </Folder>
+            <Folder name="views">
+                <Folder name="layouts">
+                    <File name="app\views\layouts\application.html.erb" />
+                    <File name="app\views\layouts\applicationsamle.html.erb" />
+                    <File name="app\views\layouts\img04.jpg" />
+                    <File name="app\views\layouts\img04.psd" />
+                    <File name="app\views\layouts\rails.png" />
+                </Folder>
+                <Folder name="staticpages">
+                    <File name="app\views\staticpages\about.html.erb" />
+                    <File name="app\views\staticpages\help.html.erb" />
+                    <File name="app\views\staticpages\home.html.erb" />
+                </Folder>
+            </Folder>
+        </Folder>
+        <Folder name="config">
+            <Folder name="environments">
+                <File name="config\environments\development.rb" />
+                <File name="config\environments\production.rb" />
+                <File name="config\environments\test.rb" />
+            </Folder>
+            <Folder name="initializers">
+                <File name="config\initializers\backtrace_silencers.rb" />
+                <File name="config\initializers\inflections.rb" />
+                <File name="config\initializers\mime_types.rb" />
+                <File name="config\initializers\secret_token.rb" />
+                <File name="config\initializers\session_store.rb" />
+                <File name="config\initializers\wrap_parameters.rb" />
+            </Folder>
+            <Folder name="locales">
+                <File name="config\locales\en.yml" />
+            </Folder>
+            <File name="config\application.rb" />
+            <File name="config\boot.rb" />
+            <File name="config\database.yml" />
+            <File name="config\environment.rb" />
+            <File name="config\routes.rb" />
+        </Folder>
+        <Folder name="db">
+            <File name="db\development.sqlite3" />
+            <File name="db\schema.rb" />
+            <File name="db\seeds.rb" />
+        </Folder>
+        <Folder name="doc">
+            <File name="doc\README_FOR_APP" />
+        </Folder>
+        <Folder name="lib">
+            <Folder name="assets">
+                <File name="lib\assets\.gitkeep" />
+            </Folder>
+            <Folder name="tasks">
+                <File name="lib\tasks\.gitkeep" />
+            </Folder>
+        </Folder>
+        <Folder name="log">
+            <File name="log\.gitkeep" />
+            <File name="log\development.log" />
+            <File name="log\production.log" />
+        </Folder>
+        <Folder name="public">
+            <Folder name="assets">
+                <File name="public\assets\img04-4c0feb5df2b2bff7a6506ec5ee6cbee6.jpg" />
+                <File name="public\assets\img04-f5337a52012bf89a836bb1a9c5cb7ead.psd" />
+                <File name="public\assets\rails-be8732dac73d845ac5b142c8fb5f9fb0.png" />
+            </Folder>
+            <File name="public\404.html" />
+            <File name="public\422.html" />
+            <File name="public\500.html" />
+            <File name="public\favicon.ico" />
+            <File name="public\robots.txt" />
+        </Folder>
+        <Folder name="script">
+            <File name="script\rails" />
+        </Folder>
+        <Folder name="test">
+            <Folder name="fixtures">
+                <File name="test\fixtures\.gitkeep" />
+            </Folder>
+            <Folder name="functional">
+                <File name="test\functional\.gitkeep" />
+                <File name="test\functional\staticpages_controller_test.rb" />
+            </Folder>
+            <Folder name="integration">
+                <File name="test\integration\.gitkeep" />
+            </Folder>
+            <Folder name="performance">
+                <File name="test\performance\browsing_test.rb" />
+            </Folder>
+            <Folder name="unit">
+                <Folder name="helpers">
+                    <File name="test\unit\helpers\staticpages_helper_test.rb" />
+                </Folder>
+                <File name="test\unit\.gitkeep" />
+            </Folder>
+            <File name="test\test_helper.rb" />
+        </Folder>
+        <Folder name="tmp">
+            <Folder name="cache">
+                <Folder name="assets">
+                    <Folder name="C9A">
+                        <Folder name="080">
+                            <File name="tmp\cache\assets\C9A\080\sprockets%2F833327b28d525ab1f7923210aa7163ba" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="CD8">
+                        <Folder name="370">
+                            <File name="tmp\cache\assets\CD8\370\sprockets%2F357970feca3ac29060c1e3861e2c0953" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="CDF">
+                        <Folder name="CE0">
+                            <File name="tmp\cache\assets\CDF\CE0\sprockets%2Fb108e56f63535ccdc68dcf1020815973" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="CF0">
+                        <Folder name="DA0">
+                            <File name="tmp\cache\assets\CF0\DA0\sprockets%2Fd7d5b37686831d37c4dd75e645f5e016" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D0E">
+                        <Folder name="C80">
+                            <File name="tmp\cache\assets\D0E\C80\sprockets%2F1450c8f5d2b6e201d72fa175586bbd97" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D14">
+                        <Folder name="810">
+                            <File name="tmp\cache\assets\D14\810\sprockets%2F8a95ea36adb71f326817e58f437d052a" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D28">
+                        <Folder name="210">
+                            <File name="tmp\cache\assets\D28\210\sprockets%2Ffbba61c3312004d305da7fac36964c36" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D30">
+                        <Folder name="180">
+                            <File name="tmp\cache\assets\D30\180\sprockets%2Fef55b54a80473b4970abe5a243ba4f12" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D32">
+                        <Folder name="A10">
+                            <File name="tmp\cache\assets\D32\A10\sprockets%2F13fe41fee1fe35b49d145bcc06610705" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D34">
+                        <Folder name="E60">
+                            <File name="tmp\cache\assets\D34\E60\sprockets%2Fc0d7920af5b1f8b963c351e22b3f0b84" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D45">
+                        <Folder name="B90">
+                            <File name="tmp\cache\assets\D45\B90\sprockets%2Fae67425b0179bbb6723ef7d4fdd05928" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D48">
+                        <Folder name="2B0">
+                            <File name="tmp\cache\assets\D48\2B0\sprockets%2F0cd07f59081fb185455854c7fb88abfa" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D4E">
+                        <Folder name="1B0">
+                            <File name="tmp\cache\assets\D4E\1B0\sprockets%2Ff7cbd26ba1d28d48de824f0e94586655" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D4F">
+                        <Folder name="DA0">
+                            <File name="tmp\cache\assets\D4F\DA0\sprockets%2F91dfb1e3477659b982feeacb705e8073" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="D5A">
+                        <Folder name="EA0">
+                            <File name="tmp\cache\assets\D5A\EA0\sprockets%2Fd771ace226fc8215a3572e0aa35bb0d6" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="DB0">
+                        <Folder name="0E0">
+                            <File name="tmp\cache\assets\DB0\0E0\sprockets%2Feb7958d3e51d2fccc4f33f77579a6f1b" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="DD4">
+                        <Folder name="890">
+                            <File name="tmp\cache\assets\DD4\890\sprockets%2Fe4473fb1077b8df0aaca56ec93fd928d" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="E04">
+                        <Folder name="890">
+                            <File name="tmp\cache\assets\E04\890\sprockets%2F2f5173deea6c795b8fdde723bb4b63af" />
+                        </Folder>
+                    </Folder>
+                    <Folder name="E25">
+                        <Folder name="4C0">
+                            <File name="tmp\cache\assets\E25\4C0\sprockets%2Fde2fd9fd11c04a582cdbbe3d84a35ae6" />
+                        </Folder>
+                    </Folder>
+                </Folder>
+                <Folder name="sass">
+                    <Folder name="c96998fee07186771958d39d6290dbc8928e3300">
+                        <File name="tmp\cache\sass\c96998fee07186771958d39d6290dbc8928e3300\staticpages.css.scssc" />
+                    </Folder>
+                </Folder>
+            </Folder>
+            <Folder name="pids">
+                <File name="tmp\pids\server.pid" />
+            </Folder>
+            <Folder name="sessions" />
+            <Folder name="sockets" />
+        </Folder>
+        <Folder name="vendor">
+            <Folder name="assets">
+                <Folder name="javascripts">
+                    <File name="vendor\assets\javascripts\.gitkeep" />
+                </Folder>
+                <Folder name="stylesheets">
+                    <File name="vendor\assets\stylesheets\.gitkeep" />
+                </Folder>
+            </Folder>
+            <Folder name="plugins">
+                <File name="vendor\plugins\.gitkeep" />
+            </Folder>
+        </Folder>
+        <File name=".gitignore" />
+        <File name="config.ru" />
+        <File name="ecom" />
+        <File name="Gemfile" />
+        <File name="Gemfile.lock" />
+        <File name="Rakefile" />
+        <File name="README.rdoc" />
+    </Project>
+</NotepadPlus>

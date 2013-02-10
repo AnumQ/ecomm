@@ -1,15 +1,21 @@
 Ecom::Application.routes.draw do
 	
+  resources :products
+
   root :to => "staticpages#home"
   get "staticpages/home"
 
   get "staticpages/help"
 
   get "staticpages/about"
+  
+  get "staticpages/contact"
 
   match '/home', :to => 'staticpages#home'
   match '/help', :to => 'staticpages#help'
   match '/about', :to => 'staticpages#about'
+  match '/contact', :to => 'staticpages#contact'
+  
 	
   # The priority is based upon order of creation:
   # first created -> highest priority.

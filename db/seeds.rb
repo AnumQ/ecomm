@@ -5,3 +5,9 @@
 #
 #   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
 #   Mayor.create(name: 'Emanuel', city: cities.first)
+
+# { description: 'Elastic, cotton, 95%' }, { price: '£20.00' }]
+
+
+	Product.create([{ name: 'Green dress' } , { description: 'Elastic, cotton, 95%' } ])
+	#Product.create([{ name: 'Blue Cardigan' }, { description: 'Cotton, Polyester' }, { price: '£5.00' }] )
