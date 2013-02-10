@@ -43,7 +43,7 @@ Ecom::Application.configure do
   end
   }
   config.assets.precompile += %w( application.css )
-  config.assets.precompile += %w( *.css *.js )
+  config.assets.precompile += %w( '*.css', '*.scss', '*.js' )
   config.assets.enabled = false
 
   # Defaults to nil and saved in location specified by config.assets.prefix

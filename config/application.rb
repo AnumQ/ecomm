@@ -40,10 +40,14 @@ module Ecom
 	config.assets.initialize_on_precompile = false
 
 	config.assets.compile = true
-
+	
+	# Precompile *all* assets, except those that start with underscore
+	config.assets.precompile << /(^[^_\/]|\/[^_])[^\/]*$/
+	
     # Configure sensitive parameters which will be filtered from the log file.
     config.filter_parameters += [:password]
 	
+	config.assets.precompile += %w( '*.css', '*.scss', '*.js' )
 	config.assets.precompile += %w( application.css )
     # Enable escaping HTML in JSON.
     config.active_support.escape_html_entities_in_json = true

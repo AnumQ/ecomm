@@ -12,6 +12,10 @@ end
 group :assets do
   gem 'sass-rails',   '~> 3.2.3'
   gem 'coffee-rails', '~> 3.2.1'
+  gem 'compass-rails', '~> 1.0.0.rc.2'
+  gem 'compass-colors'
+  gem 'sassy-buttons'
+  
 
   # See https://github.com/sstephenson/execjs#readme for more supported runtimes
   # gem 'therubyracer', :platforms => :ruby
@@ -22,6 +26,8 @@ group :assets do
 end
 
 gem 'capistrano'
+gem 'compass'
+gem 'haml'
 
 group :production do
   gem 'pg', '0.12.2'
