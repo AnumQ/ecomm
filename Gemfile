@@ -21,6 +21,8 @@ group :assets do
 
 end
 
+gem 'capistrano'
+
 group :production do
   gem 'pg', '0.12.2'
 end
