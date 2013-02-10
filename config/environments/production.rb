@@ -15,8 +15,8 @@ Ecom::Application.configure do
   config.assets.compress = true
   
   # Choose the compressors to use
-	config.assets.js_compressor  = :uglifier
-    config.assets.css_compressor = :yui
+  #	config.assets.js_compressor  = :uglifier
+  # config.assets.css_compressor = :yui
 
   # Don't fallback to assets pipeline if a precompiled asset is missed
   config.assets.compile = false
@@ -26,6 +26,7 @@ Ecom::Application.configure do
   
   # Anum's added configurations
   #config.assets.precompile += %w( style.css )
+  config.assets.precompile += %w( application.css )
   config.assets.precompile += %w( *.css *.js )
   config.assets.enabled = false
 
