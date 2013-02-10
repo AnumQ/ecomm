@@ -1,3 +1,11 @@
+GIT
+  remote: git://github.com/koppen/hassle.git
+  revision: bb49cd8b37f5369d08398897caf1b687eaa80458
+  specs:
+    hassle (0.0.1)
+      haml
+      rack
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -138,6 +146,7 @@ DEPENDENCIES
   compass-colors
   compass-rails (~> 1.0.0.rc.2)
   haml
+  hassle!
   jquery-rails
   pg (= 0.12.2)
   rails (= 3.2.8)

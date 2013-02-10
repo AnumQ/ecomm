@@ -28,6 +28,7 @@ end
 gem 'capistrano'
 gem 'compass'
 gem 'haml'
+gem 'hassle', :git => 'git://github.com/koppen/hassle.git'
 
 group :production do
   gem 'pg', '0.12.2'
